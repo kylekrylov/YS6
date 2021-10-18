@@ -126,7 +126,7 @@ function checkInput() {
     const name = form.elements.name.value;
     const link = form.elements.link.value;
     const popupButton = document.querySelector('.popup__button')
-    if (name != 0 || link != 0) {
+    if (name != 0 && link != 0) {
         popupButton.classList.add('popup__button--black')
     } else {
         popupButton.classList.remove('popup__button--black')
