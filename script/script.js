@@ -161,5 +161,4 @@ userInfoButton.addEventListener("click", openModal);
 
 popupClose.addEventListener("click", closeModal);
 
-
 loadCards();
